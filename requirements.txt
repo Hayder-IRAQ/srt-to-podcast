@@ -1,0 +1,18 @@
+# Requirements for SRT-to-Podcast (Chatterbox Multilingual GPU)
+#
+# IMPORTANT: Chatterbox requires Python 3.11
+# Install PyTorch with CUDA first, then these:
+#
+# Step 1: Create venv with Python 3.11
+#   python3.11 -m venv .venv
+#   .venv\Scripts\activate    (Windows)
+#   source .venv/bin/activate  (Linux/macOS)
+#
+# Step 2: Install PyTorch with CUDA
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu124
+#
+# Step 3: Install remaining deps
+#   pip install -r requirements.txt
+
+chatterbox-tts>=0.1.4
+customtkinter>=5.2.0
